@@ -18,7 +18,7 @@ def About_page():
 
 @app.route('/xyz')
 def piechart():
-    conn = psycopg2.connect("dbname='sales_demo' user='postgres' host='localhost' password='Nancy22*'")
+    conn = psycopg2.connect("dbname='sales_demo' user='postgres' host='localhost' password='*******'")
 
     cur1 = conn.cursor()
 
